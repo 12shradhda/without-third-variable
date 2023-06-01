@@ -1,0 +1,21 @@
+public class String
+{
+    public static void main(String[] args) 
+    {
+        String str1 = "Java";
+        String str2 = "learner";
+
+        System.out.println("Before swapping:");
+        System.out.println("str1 = " + str1);
+        System.out.println("str2 = " + str2);
+
+ 
+        str1 = str1 ^ str2;
+        str2 = str1 ^ str2;
+        str1 = str1 ^ str2;
+
+        System.out.println("After swapping:");
+        System.out.println("str1 = " + str1);
+        System.out.println("str2 = " + str2);
+    }
+}
